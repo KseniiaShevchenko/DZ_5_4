@@ -1,0 +1,42 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.fullwrap, .header, .wrap, .main, .sidebar, .footer {
+	border: 1px solid black;
+	min-height: 150px;
+}
+
+.fullwrap {
+	padding: 10px;
+	width: 598px;
+}
+
+.header, .wrap, .footer {
+	width: 574px;
+}
+
+.wrap {
+	margin: 10px 0;
+}
+
+.main, .sidebar {
+	margin: 10px;
+	min-height: 300px;
+	float: left;
+}
+
+.main {
+	width: 400px;
+}
+
+.sidebar {
+	width: 130px;
+}
+
+.clearfix {
+	clear: both;
+}
